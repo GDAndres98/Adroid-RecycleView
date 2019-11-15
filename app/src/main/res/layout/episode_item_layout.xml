@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+
+    <TextView
+        android:id="@+id/idTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/colorYellowChicken"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorYellowChicken"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/crawlTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="aslfas skdj asdl kjsad lkksa laskd\nasd asdas asd \nasjdaskdj"
+        android:textAllCaps="false"
+
+        android:layout_gravity="center"
+android:justificationMode="inter_word"
+        android:textColor="@color/colorYellowChicken"
+        android:textSize="18sp" />
+
+</LinearLayout>
